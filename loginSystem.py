@@ -15,8 +15,8 @@ elif choice == 2:
     username = input("Create Username: ")
     password = input("Create Password: ")
     print("Account Created Successfully!")
-    exit = int(input("Press '3' to exit: "))
-    if exit == 3:
+    exitt = int(input("Press '3' to exit: "))
+    if exitt == 3:
         print("Exiting...")
         exit()
 elif choice == 3:
